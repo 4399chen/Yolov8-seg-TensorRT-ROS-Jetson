@@ -1,0 +1,4 @@
+<launch>
+    <include file="$(find usb_cam)/launch/usb_cam.launch" />
+    <include file="$(find yolov8_seg)/launch/yolov8_seg.launch" />
+</launch>

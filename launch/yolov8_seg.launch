@@ -1,0 +1,4 @@
+<launch>
+    <node pkg = "yolov8_seg" type = "yolov8_seg" name = "yolov8_seg" args="$(find yolov8_seg)/zoo/engine/seg/yolov8x-seg.engine /usb_cam/image_raw">
+    </node>
+</launch>
